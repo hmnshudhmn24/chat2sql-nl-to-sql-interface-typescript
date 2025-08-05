@@ -1,6 +1,6 @@
 # 💬 Chat2SQL: Natural Language to SQL Interface
 
-Translate human questions into SQL queries securely with the help of OpenAI and TypeScript.
+Chat2SQL is an AI-powered backend service that converts natural language queries into SQL statements using the OpenAI API. It helps non-technical users interact with databases by simply asking questions in plain English. Built with TypeScript, Express, and PostgreSQL, it ensures safe and controlled query execution with built-in role-based access controls.
 
 
 
