@@ -2,7 +2,7 @@
 
 Translate human questions into SQL queries securely with the help of OpenAI and TypeScript.
 
----
+
 
 ## 🔧 Features
 
@@ -11,7 +11,7 @@ Translate human questions into SQL queries securely with the help of OpenAI and 
 - 🕵️ Query preview with editable SQL output
 - 🧯 Safe SQL execution: only `SELECT` queries allowed
 
----
+
 
 ## 🧪 Tech Stack
 
@@ -22,7 +22,7 @@ Translate human questions into SQL queries securely with the help of OpenAI and 
 - dotenv
 - CORS, BodyParser
 
----
+
 
 ## 🚀 Setup Instructions
 
@@ -52,7 +52,7 @@ Translate human questions into SQL queries securely with the help of OpenAI and 
    npm start
    ```
 
----
+
 
 ## 🔐 Role-Based Access
 
@@ -65,7 +65,7 @@ const USERS: Record<string, 'admin' | 'user'> = {
 };
 ```
 
----
+
 
 ## 🧠 Example Usage
 
@@ -90,14 +90,14 @@ const USERS: Record<string, 'admin' | 'user'> = {
 }
 ```
 
----
+
 
 ## ⚠️ Security Notes
 
 - This server only executes **SELECT** queries for safety.
 - Always validate GPT outputs before execution in production.
 
----
+
 
 ## 🧩 Future Improvements
 
@@ -105,9 +105,3 @@ const USERS: Record<string, 'admin' | 'user'> = {
 - Interactive query editor
 - Advanced RBAC
 - Rate limiting
-
----
-
-## 📄 License
-
-MIT License
